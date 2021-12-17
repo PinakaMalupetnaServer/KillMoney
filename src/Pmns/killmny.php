@@ -1,6 +1,6 @@
 <?php
 
-namespace Pmns;
+namespace Pmns\KillMoney;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Event;
