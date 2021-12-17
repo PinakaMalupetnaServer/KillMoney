@@ -16,7 +16,7 @@ class killmny extends PluginBase implements Listener
 
     public function onEnable()
     {
-        $this->getServer()->getPluginManager()->registerEvent($this, $this);
+        $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
     public function onDie(PD $e)
